@@ -3,7 +3,7 @@ name: Daily Gold FX Ratio & Telegram Report
 on:
   schedule:
     # اجرا روزی دوبار: 06:30 UTC و 14:30 UTC
-    - cron: '30 6,14 * * *'
+    - cron: '15 6,15,20 * * *'
   workflow_dispatch:
 
 permissions:
